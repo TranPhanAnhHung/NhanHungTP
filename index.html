@@ -7,48 +7,37 @@
 @import "TranPhuDinhDang.css";
 @import "TRANPHU.css";
 h2,h3  {color:darkred !important;}
-img{ width="3000"; height="2000"; !important}
+img{ width="1000px"; height="800px"; !important}
+body {background-image: url('LOGOTRANPHU.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size:40% ;}
 
-/* New styles for 2-row layout */
-.content-row {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 0;
-}
-
-.content-cell {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-}
-
-.content-cell img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-}
+/* CSS */
+.section {transition: all 1s ease-in-out;}
 </style>
 </head>
 <body>
 <header>
 <div class="banner">
-<h1> HOẠT ĐỘNG NGOẠI KHOÁ TRƯỜNG THPT TRẦN PHÚ</h1>
+<h1> CÁC HOẠT ĐỘNG TẠI TRƯỜNG THPT TRẦN PHÚ</h1>
 </div>
 <div class="slogan">
 <div class="row">
-<div class="block_3"><h2>Học tập</h2><p>Học tập mỗi ngày,toả sáng mỗi giờ,không ngừng học hỏi</p></div>
+<div class="block_3"><h2>Học tập</h2><p>Học tập mỗi ngày, toả sáng mỗi giờ, không ngừng học hỏi</p></div>
 <div class="block_3"><h2>Sáng tạo</h2><p>Nơi khởi nguồn sáng tạo</p></div>
-<div class="block_3"><h2>Hoạt động</h2><p>Lao động hăng say,làm việc nhiệt tình</p></div>
+<div class="block_3"><h2>Hoạt động</h2><p>Lao động hăng say, làm việc nhiệt tình</p></div>
 </div>
 </div>
 </header>
-
+<body>
 <nav class="nav-menu">
 <ul class="nav-list">
 <li><a href="#hoctap" class="nav-link">Học tập</a></li>
 <li><a href="#sangtao" class="nav-link">Sáng tạo</a></li>
 <li><a href="#tuyentruyen" class="nav-link">Tuyên truyền</a></li>
 <li><a href="#thethao" class="nav-link">Thể thao & Nghệ thuật</a></li>
+<li><a href="#lienhe" class="nav-link">Thông tin liên hệ</a></li>
 </ul>
 </nav>
 
@@ -67,7 +56,7 @@ img{ width="3000"; height="2000"; !important}
 <li>Toán - Tin với thực tiễn</li>
 <li>KHÁM PHÁ VẺ ĐẸP VĂN CHƯƠNG</li>
 </ul>
-<h3>Thông tin thêm: <button class="detail-button"><a href="TPHOCTAP.html">TẠI ĐÂY</a></button></h3>
+<h3>Thông tin thêm về các CLB: <button class="detail-button"><a href="TPHOCTAP.html">TẠI ĐÂY</a></button></h3>
 <h3>Tham gia các Câu lạc bộ tại trường: <button class="detail-button"><a href="DKCLBHT.html">ĐĂNG KÍ</a></button></h3>
 </div>
 </div>
@@ -81,7 +70,7 @@ img{ width="3000"; height="2000"; !important}
 Vào ngày 26-3, tại trường sẽ diễn ra hội trại là nơi để cho học sinh tại trường vui chơi.<br>
 Tại đây, học sinh của trường sẽ tham gia các hoạy động giải trí như:đổ nước chai,loto, kẹp ống,...<br>
 Và còn các hoạt động giáo dục như stem vật lí chế tạo tên lửa nước và hoạy động nhân văn như xổ số đẻ ủng hộ học sinh khó khăn</p>
-<h3>Thông tin chi tiết: <button class="detail-button"><a href="TPSANGTAO.html">TẠI ĐÂY</a></button></h3>
+<h3>Các hoạt động khác về sáng tạo: <button class="detail-button"><a href="TPSANGTAO.html">TẠI ĐÂY</a></button></h3>
 </div>
 </div>
 </div>
@@ -96,15 +85,14 @@ Và còn các hoạt động giáo dục như stem vật lí chế tạo tên l�
 <p>Tại trường đã diễn ra nhiều hoạt động tuyên truyền phổ biến pháp luật về An Toàn Giao Thông.<br>
 Và nhiều hoạt động tuyên truyền bổ ích khác cho học sinh như Tuyên truyền về hoạt động lịch sử tại Cảng Vũng Rô,..</p>
 <p>Các hoạt động tuyên truyền này rất được nhiều học sinh đón nhận và tham gia</p>
-<h3>Thông tin chi tiết: <button class="detail-button"><a href="HOATDONGTUYENTRUYEN.html">TẠI ĐÂY</a></button></h3>
+<h3>Thông tin thêm về các hoạt dộng tuyên truyền: <button class="detail-button"><a href="HOATDONGTUYENTRUYEN.html">TẠI ĐÂY</a></button></h3>
 </div>
 </div>
-
 <!-- Thể thao section -->
 <div class="content-cell" id="thethao">
 <img src="TranPhuTheThao.jpg" alt="Hoạt động thể thao">
 <div class="cell">
-<h2>Thể Thao và Nghệ Thuật tại Trường</h2>
+<h2>Thể  Thao và Nghệ Thuật tại Trường</h2>
 <p>Trường đã tổ chức các hoạt động thể thao tại trường như giải bóng chuyền truyền thống được 
 tổ chức vào tháng 8, và các hoạt động văn nghệ Mừng Đảng Mừng Xuân được sự tham gia của nhiều học sinh toàn trường.<br>
 Ngoài ra,còn có các hoạt động do tỉnh Phú Yên tổ chức và nhiều học sinh tại trường đạt thành tích cao.</p>
@@ -115,15 +103,18 @@ Ngoài ra,còn có các hoạt động do tỉnh Phú Yên tổ chức và nhi�
 </div>
 </div>
 </div>
-
+</body>
 <footer>
 <div class="row">
 <div style="width:50%">
+<section id="lienhe"></section>
 <p>Thông tin thêm:</p>
+<p>Địa chỉ:Đường Trần Phú,Khu phố Chí Đức, Thị Trấn Chí Thạnh, Huyện Tuy An, Tỉnh Phú Yên.<br>
+Điện thoại: 0988951220 | Email:ntlap.thpt.tp@phuyen.edu.vn</p>
 <ul>
-<li>Facebook trường:<a href="https://www.facebook.com/share/18ctLnbjva/"> tại đây</a></li>
-<li>Trang Web chính thức của trường: <a href="https://tranphu.phuyen.edu.vn/">tại đây</a></li>
-<li>Ban truyền thông trường: <a href="https://www.facebook.com/share/16AX9F1p6a/">tại đây</a></li>
+<li><a href="https://www.facebook.com/share/18ctLnbjva/" target="_blank">Trang Facebook trường THPT Trần Phú</a></li>
+<li><a href="https://tranphu.phuyen.edu.vn/" target="_blank">Trang Web chính thức THPT Trần Phú</a></li>
+<li><a href="https://www.facebook.com/share/16AX9F1p6a/" target="_blank">Ban truyền thông trường THPT Trần Phú</a></li>
 </ul>
 </div>
 </div>
